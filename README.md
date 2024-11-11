@@ -1,3 +1,4 @@
+![Computer with Code](https://images.unsplash.com/photo-1587620962725-abab7fe55159?auto=format&fit=crop&q=80&w=1631&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 # Writing a Function in JavaScript
 
 In JavaScript, functions are blocks of reusable code. They allow you to bundle functionality, make it more readable, and avoid repetition. Here's a brief tutorial on writing an arrow function in JavaScript.
@@ -21,7 +22,7 @@ const greet = (name) => {
   console.log("Hello, " + name + "!");
 }
 ```
-**5. Tip**: Functions often perform actions, so naming with a verb can make it clear what the function does. Examples include fetchData( ), calculateArea( ), or printReport( ). 
+> **5. Tip**: Functions often perform actions, so naming with a verb can make it clear what the function does. Examples include fetchData( ), calculateArea( ), or printReport( ). 
 
 ## 2. Calling a function
 
@@ -45,5 +46,6 @@ const total = addNums(2, 4);
 
 console.log(total) // Expected value: 6
 ```
-For more information on functions and how they are used in JS, check out the MDN docs. 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
+For more information on functions and how they are used in JS, check out the [MDN docs.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+
+![Goat](https://images.unsplash.com/photo-1730970238526-c4b4f42425cf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyM3x8fGVufDB8fHx8fA%3D%3D)
