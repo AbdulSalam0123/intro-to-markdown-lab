@@ -3,12 +3,12 @@
 In JavaScript, functions are blocks of reusable code. They allow you to bundle functionality, make it more readable, and avoid repetition. Here's a brief tutorial on writing an arrow function in JavaScript.
 
 ## 1. Basic syntax
-
-```const functionName = (params) => {
+```
+const functionName = (params) => {
   // code to be executed
+  let vi;
 }
 ```
-
 **1. const**: const should be used whenever a function expression is assigned to a variable.
 The function name: The name you choose for the function.
 **2. Parameters**: Optional comma separated parameters. This is the data passed into the function. If there are no parameters, the () is still required.
@@ -17,9 +17,9 @@ The arrow syntax: Indicates that this will be a function.
 
 **4. Example** :
 
-```const greet = (name) => {
+const greet = (name) => {
   console.log("Hello, " + name + "!");
-}```
+}
 
 **5. Tip**: Functions often perform actions, so naming with a verb can make it clear what the function does. Examples include fetchData( ), calculateArea( ), or printReport( ). 
 
@@ -29,7 +29,7 @@ To execute the function, you _call_ or _invoke_ it by using its name followed by
 
 ***Example***:
 
-```greet('Alice');``` // Outputs: Hello, Alice!
+``` greet('Alice');``` // Outputs: Hello, Alice!
 
 ## 3. Return values
 
