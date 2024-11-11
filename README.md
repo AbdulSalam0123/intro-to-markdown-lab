@@ -4,7 +4,7 @@
 In JavaScript, functions are blocks of reusable code. They allow you to bundle functionality, make it more readable, and avoid repetition. Here's a brief tutorial on writing an arrow function in JavaScript.
 
 ## 1. Basic syntax
-```
+```javascript
 const functionName = (params) => {
   // code to be executed
   let vi;
@@ -20,7 +20,7 @@ const functionName = (params) => {
 **5. The body**: The statements that make up the function itself. Surrounded by curly braces.
 
 **5. Example** :
-```
+```javascript
 const greet = (name) => {
   console.log("Hello, " + name + "!");
 }
@@ -40,7 +40,7 @@ To execute the function, you _call_ or _invoke_ it by using its name followed by
 Functions can process data input and output a value using the _return_ keyword.
 
 ***Example***: 
-```
+```javascript
 const addNums = (numA, numB) => {
   return numA + numB
 }
